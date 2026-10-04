@@ -7,7 +7,7 @@ jobs:
          - name: checkout repository code
            uses: actions/checkout@v4
          - name: setup python
-           uses: actions/setup_python@v5
+           uses: actions/setup-ython@v5
            with:
             python-version: 3.11
          - name: install dependencies
